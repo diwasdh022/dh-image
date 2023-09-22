@@ -569,8 +569,79 @@ body{
         width: 58%;
         right: 56px;
         bottom: 76%;
+        display: none;
     }
     .payment-p{
         margin-left: 0 !important;
+    }
+    .image-man {
+        position: absolute;
+        right: 8%;
+        z-index: 1;
+        /* display: none; */
+    }
+    .image-woman {
+        position: absolute;
+        left: 8%;
+        
+        z-index: 1;
+        /* display: none; */
+    }
+    .home-8_hero-content-block p, .home-8_hero-content-block .home-8_hero-button-group{
+        display: none;
+    }
+    .home-8_hero-text-block img {
+        height: 175px;
+        margin: 20px auto;
+    }
+    .home-8_hero-section {
+        height: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-buttons .btn-primary-l02{
+        font-size: 14px;
+        padding:8px 14px;
+    }
+    .mobile-content {
+        
+        padding-top: 100px;
+        
+    }
+    .mobile-content p{
+        line-height:18px;
+    }
+    #hero:before {
+        background-size: 40%;
+    }
+    #scroll-down{
+        display: none;
+    }
+    .cta-home-3{
+        padding-bottom: 40px;
+    }
+    #about .col-xxl-6.col-xl-6.col-lg-6.col-md-12{
+        margin-top:0;
+    }
+    .home-8_hero-section .row--custom{
+        margin:0;
+        padding:0;
+    }
+    .home-8_hero-section .row--custom .col-lg-8.col-md-9{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 330px){
+    .image-man {
+        right: 1%;
+    }
+    .image-woman {
+        left: 1%;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .mobile-content {
+        display: none;
     }
 }
